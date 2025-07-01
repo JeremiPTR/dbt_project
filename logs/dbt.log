@@ -1,0 +1,30 @@
+[0m10:55:33.125054 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D7926510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235DA48F610>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235DA48F9D0>]}
+
+
+============================== 10:55:33.128958 | 6512357a-07f6-45c0-9981-f6a0f185f65a ==============================
+[0m10:55:33.128958 [info ] [MainThread]: Running with dbt=1.7.9
+[0m10:55:33.129545 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\33667\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m10:55:33.130184 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse dict {'dir': WindowsPath('C:/Users/33667/.dbt')}
+[0m10:55:33.130611 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m10:56:30.340513 [debug] [MainThread]: Starter project path: C:\Users\33667\Documents\WILD CODE SCHOOL\DBT_DEMO\my-dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m10:56:30.363979 [info ] [MainThread]: 
+Your new dbt project "JeremiPTR" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m10:56:30.364881 [info ] [MainThread]: Setting up your profile.
+[0m10:56:38.390261 [info ] [MainThread]: Profile JeremiPTR written to C:\Users\33667\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m10:56:38.391068 [debug] [MainThread]: Command `dbt init` succeeded at 10:56:38.390936 after 65.32 seconds
+[0m10:56:38.391347 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235D382A9E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235DAA58830>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235DA622AD0>]}
+[0m10:56:38.391645 [debug] [MainThread]: Flushing usage events
